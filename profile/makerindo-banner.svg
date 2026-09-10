@@ -37,7 +37,7 @@
     .font-base { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro Display', Roboto, 'Helvetica Neue', Arial, sans-serif; }
     .font-mono { font-family: 'SF Mono', Monaco, Consolas, 'Liberation Mono', Menlo, monospace; }
     
-    .corp-title { font-size: 32px; font-weight: 800; fill: #FFFFFF; letter-spacing: -0.5px; text-anchor: middle; }
+    .corp-title { font-size: 34px; font-weight: 800; fill: #FFFFFF; letter-spacing: -0.5px; text-anchor: middle; }
     .corp-tagline { font-size: 15px; font-weight: 600; fill: #00ADD8; letter-spacing: 0.5px; text-anchor: middle; text-transform: uppercase; }
     .corp-desc { font-size: 12.5px; fill: #94A3B8; font-weight: 400; text-anchor: middle; }
     
@@ -70,8 +70,8 @@
     <circle cx="-114" cy="12" r="4" fill="#10B981"/>
     <text x="6" y="15.5" class="cat-badge-text font-mono">ENTERPRISE R&amp;D LAB · EST. 2019</text>
 
-    <!-- Company Name (Centered) -->
-    <text x="0" y="56" class="corp-title">PT Makerindo Prima Solusi</text>
+    <!-- Company Name (Centered) - No PT -->
+    <text x="0" y="56" class="corp-title">Makerindo Prima Solusi</text>
 
     <!-- Corporate Tagline (Centered) -->
     <text x="0" y="80" class="corp-tagline font-mono">Build Solution without Exception</text>

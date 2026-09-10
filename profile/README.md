@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/makerindo-repository/.github/main/hero-banner.png" alt="PT Makerindo Prima Solusi Enterprise Header" width="100%" />
+<img src="https://raw.githubusercontent.com/makerindo-repository/.github/main/makerindo-banner.png" alt="Makerindo Prima Solusi Enterprise Header" width="100%" />
 
 <br/>
 
@@ -16,7 +16,7 @@
 
 ## 🏛️ Executive Overview
 
-**PT Makerindo Prima Solusi** is an Indonesian institutional technology engineering consultancy and research laboratory established in June 2019 in Bandung, West Java. We engineer mission-critical **Cyber-Physical Systems**, **Industrial Internet of Things (IoT)**, **High-Availability Cloud Platforms**, **Resilient Mobile Computing**, and **Applied Vision AI**.
+**Makerindo Prima Solusi** is an institutional technology engineering consultancy and research laboratory established in June 2019 in Bandung, West Java. We engineer mission-critical **Cyber-Physical Systems**, **Industrial Internet of Things (IoT)**, **High-Availability Cloud Platforms**, **Resilient Mobile Computing**, and **Applied Vision AI**.
 
 Operating under the corporate doctrine **"Build Solution without Exception"**, we bridge hardware engineering and distributed software architectures to serve high-consequence sectors including national defense, precision agriculture, smart industry, and higher education.
 
@@ -76,7 +76,7 @@ Security is maintained with the highest institutional diligence. Vulnerabilities
 
 ## 📬 Corporate Headquarters & Verification
 
-- **Legal Entity**: **PT Makerindo Prima Solusi**
+- **Entity**: **Makerindo Prima Solusi**
 - **Corporate Website**: [https://makerindo.co.id/](https://makerindo.co.id/)
 - **Institutional Email**: [makerdotindo@gmail.com](mailto:makerdotindo@gmail.com)
 - **Direct Hotline / WhatsApp**: +62 812-1821-0613
@@ -85,6 +85,6 @@ Security is maintained with the highest institutional diligence. Vulnerabilities
 
 <div align="center">
 
-<sub>Copyright © 2019 – 2026 **PT Makerindo Prima Solusi**. All rights reserved.</sub>
+<sub>Copyright © 2019 – 2026 **Makerindo Prima Solusi**. All rights reserved.</sub>
 
 </div>
