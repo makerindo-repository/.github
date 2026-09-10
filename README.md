@@ -1,90 +1,120 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/makerindo-repository/.github/main/makerindo-architecture-banner.png" alt="Makerindo Prima Solusi Enterprise Header" width="100%" />
+<img src="https://raw.githubusercontent.com/makerindo-repository/.github/main/makerindo-architecture-banner.png" alt="Makerindo Prima Solusi Enterprise Architecture Header" width="100%" />
 
 <br/>
 
-[![Corporate Website](https://img.shields.io/badge/Official_Website-makerindo.co.id-0B132B?style=for-the-badge&logo=google-chrome&logoColor=00ADD8)](https://makerindo.co.id/)
-[![ISO 25010](https://img.shields.io/badge/ISO%2FIEC_25010-Software_Quality-0B132B?style=for-the-badge&logo=checkmarx&logoColor=10B981)](#-quality--compliance-governance)
+[![Official Website](https://img.shields.io/badge/Official_Portal-makerindo.co.id-0B132B?style=for-the-badge&logo=google-chrome&logoColor=00ADD8)](https://makerindo.co.id/)
+[![Book Consultation](https://img.shields.io/badge/Client_Inquiries-Start_a_Project-00ADD8?style=for-the-badge&logo=telegram&logoColor=white)](mailto:cs@makerindo.co.id?subject=Project%20Inquiry%20-%20Makerindo%20Prima%20Solusi)
+[![ISO 25010](https://img.shields.io/badge/ISO%2FIEC_25010-Software_Quality-0B132B?style=for-the-badge&logo=checkmarx&logoColor=10B981)](#-quality-assurance--iso-governance)
 [![ISO 27001](https://img.shields.io/badge/ISO%2FIEC_27001-Information_Security-0B132B?style=for-the-badge&logo=auth0&logoColor=38BDF8)](SECURITY.md)
-[![ISO 12207](https://img.shields.io/badge/ISO%2FIEC_12207-Lifecycle_Systems-0B132B?style=for-the-badge&logo=git&logoColor=F59E0B)](#-quality--compliance-governance)
-[![Location](https://img.shields.io/badge/HQ-Bandung%2C_Indonesia-0B132B?style=for-the-badge&logo=googlemaps&logoColor=EF4444)](https://maps.google.com/?q=Makerindo+Prima+Solusi)
+[![ISO 12207](https://img.shields.io/badge/ISO%2FIEC_12207-Lifecycle_Systems-0B132B?style=for-the-badge&logo=git&logoColor=F59E0B)](#-quality-assurance--iso-governance)
+[![Headquarters](https://img.shields.io/badge/Bandung-West_Java%2C_ID-0B132B?style=for-the-badge&logo=googlemaps&logoColor=EF4444)](https://maps.google.com/?q=Makerindo+Prima+Solusi)
 
 </div>
 
 ---
 
-## 🏛️ Executive Overview
+## 🚀 About Us: Build Solution without Exception
 
-**Makerindo Prima Solusi** is an institutional technology engineering consultancy and research laboratory established in June 2019 in Bandung, West Java. We engineer mission-critical **Cyber-Physical Systems**, **Industrial Internet of Things (IoT)**, **High-Availability Cloud Platforms**, **Resilient Mobile Computing**, and **Applied Vision AI**.
+**Makerindo Prima Solusi** is an agile technology consultancy and advanced R&D engineering laboratory founded in June 2019 in Bandung, Indonesia. We operate as an end-to-end cyber-physical solutions house — bridging custom embedded hardware, industrial IoT telemetry, distributed enterprise cloud, cross-platform mobile, and applied artificial intelligence.
 
-Operating under the corporate doctrine **"Build Solution without Exception"**, we bridge hardware engineering and distributed software architectures to serve high-consequence sectors including national defense, precision agriculture, smart industry, and higher education.
-
----
-
-## 🔬 Core Engineering Divisions
-
-| ⚡ 01. Industrial IoT & Hardware | ☁️ 02. Distributed Cloud & Web | 📱 03. Mission-Critical Mobile | 🧠 04. Applied AI & Computer Vision |
-|:---|:---|:---|:---|
-| **Core Stack:** `ESP-IDF` · `STM32` · `LoRaWAN`<br/>**Telemetry:** `RS-485 Modbus RTU / MQTT`<br/>**Deployment:** Rapid Soil Checker (RSC)<br/>**Reliability:** Sub-10ms Telemetry, 0 Packet Loss | **Core Stack:** `Next.js 16` · `Go 1.22` · `PostgreSQL`<br/>**Cluster:** `Redis 7 Cluster` · `WebSockets`<br/>**Deployment:** Enterprise Resource & Analytics<br/>**Reliability:** 18.6k req/s, 99.99% Availability | **Core Stack:** `Flutter 3.x` · `Dart` · `SQLite`<br/>**Architecture:** Clean Architecture & BLoC<br/>**Deployment:** Anti-Mock GPS Field Tracking<br/>**Reliability:** Store-and-Forward Offline Queue | **Core Stack:** `SigLIP ViT` · `PyTorch` · `OpenCV`<br/>**Processing:** Sub-15ms Edge Model Quantization<br/>**Deployment:** Real-Time Visual Defect Inspection<br/>**Reliability:** ISO 42001 & 25059 AI Governance |
+Under the institutional doctrine **"Build Solution without Exception"**, we partner with global startups, large enterprise conglomerates, and government bodies. Whatever your operational challenge or tech stack, we engineer, validate, and scale the complete solution.
 
 ---
 
-## 🛠️ Technology Capabilities Matrix
-
-| Engineering Pillar | Production Technology Stack | Architectural Standards & Verification |
-|:---|:---|:---|
-| **Industrial IoT & Firmware** | `C++`, `ESP-IDF`, `STM32Cube`, `FreeRTOS`, `LoRaWAN`, `RS-485` | Hardware-in-the-Loop (HIL) verification, CRC16 payload validation, sub-10ms sensor acquisition. |
-| **Enterprise Cloud & Backend** | `Go 1.22`, `Gin`, `Python FastAPI`, `PostgreSQL 16`, `Redis 7` | Clean Architecture, 0 data-race concurrency guarantee, WebSockets live streaming, ACID ledgers. |
-| **Frontend & Enterprise Web** | `Next.js 16`, `React 19`, `TypeScript 5.x`, `Tailwind CSS 4` | Server Components, Turbopack compilation, WCAG AA contrast standards, Leaflet GIS mapping. |
-| **Mission-Critical Mobile** | `Flutter 3.x`, `Dart`, `SQLite`, `BLoC Pattern` | Disruption-Tolerant Networking (DTN), local transactional SQLite queues, anti-mock GPS validation. |
-| **Applied AI & Computer Vision**| `PyTorch`, `SigLIP ViT`, `OpenCV`, `Hugging Face` | Zero-shot visual classification, edge model quantization (ONNX/TensorRT), automated defect inspection. |
-| **DevOps & Infrastructure** | `Docker`, `GitHub Actions`, `Linux (Debian/RHEL)`, `GHCR` | Multi-stage scratch builds, automated CI/CD quality gates, GPG Ed25519 commit verification. |
-
----
-
-## 🌐 Impact Sectors & Client Deployments
-
-| 🛡️ National Defense & Law Enforcement | 🌱 Precision Agriculture & Environment | 🏭 Smart Industry & Higher Education |
-|:---|:---|:---|
-| • Tactical Telemetry Mesh Routing<br/>• Police Cadet Tracking & Evaluation Engine<br/>• Anti-Tamper Cryptographic Audit Trails | • Rapid Soil Checker (RSC) Hardware Sensing<br/>• Real-Time NPK Soil Telemetry Pipelines<br/>• Autonomous Environmental Telemetry Arrays | • Industrial Smart Factory Sensor Telemetry<br/>• University R&D Consortiums (e.g. UNIKOM)<br/>• National Engineering Tech Bootcamps |
-
----
-
-## 🛡️ Quality & Compliance Governance
-
-Every engineering deliverable across Makerindo repositories adheres to international enterprise quality frameworks:
-
-| Framework | Governing Scope | Institutional Implementation |
-|:---|:---|:---|
-| **ISO/IEC 25010:2023** | Systems & Software Quality Requirements | Functional completeness, performance efficiency, sub-second API latency, zero UI noise. |
-| **ISO/IEC 27001:2022** | Information Security Management | Zero secret leakage, role-based access control, cryptographic signing, vulnerability policies. |
-| **ISO/IEC 12207:2017** | Software Lifecycle Processes | Baseline `main` branch discipline, automated CI regression testing, release tagging. |
-| **ISO/IEC 42001:2023** | Artificial Intelligence Management | Algorithmic transparency, reproducible validation datasets, robust edge safety bounds. |
-
----
-
-## 🔐 Security & Responsible Disclosure
-
-Security is maintained with the highest institutional diligence. Vulnerabilities identified in any Makerindo service, repository, or connected hardware should be reported confidentially adhering to our [Security Policy](SECURITY.md) by contacting:
-
-📩 **Official Security Desk**: [makerdotindo@gmail.com](mailto:makerdotindo@gmail.com)
-
-*Initial disclosures are acknowledged within 24 hours.*
-
----
-
-## 📬 Corporate Headquarters & Verification
-
-- **Entity**: **Makerindo Prima Solusi**
-- **Corporate Website**: [https://makerindo.co.id/](https://makerindo.co.id/)
-- **Institutional Email**: [makerdotindo@gmail.com](mailto:makerdotindo@gmail.com)
-- **Direct Hotline / WhatsApp**: +62 812-1821-0613
-- **Headquarters**: Komplek Pesona Ciganitri Blok A39, Cipagalo, Bojongsoang, Kab. Bandung, Jawa Barat 40287, Indonesia
-- **Operational Schedule**: Monday – Friday, 08:00 – 17:00 WIB (UTC+07:00)
+## 📊 Corporate Track Record & Impact
 
 <div align="center">
 
-<sub>Copyright © 2019 – 2026 **Makerindo Prima Solusi**. All rights reserved.</sub>
+| 🚀 81+ Solutions Delivered | 🏛️ 63+ Enterprise & Gov Clients | 🤝 9+ Strategic Partners | ⏱️ 99.99% Availability SLA |
+|:---:|:---:|:---:|:---:|
+| *From Edge Firmware to Cloud* | *Multinational & Public Sector* | *Universities & Tech Consortiums* | *High-Consequence Systems* |
+
+</div>
+
+---
+
+## 🛠️ Full-Stack Technology Capabilities ("Pake Apapun, Dari Manapun")
+
+We are proudly **technology-agnostic and platform-resilient**. We architect systems to fit client specifications precisely, from ultra-low-power microcontrollers to global distributed microservice clusters:
+
+| Engineering Pillar | Production Technology Stack | Architectural Standards & Capabilities |
+|:---|:---|:---|
+| **⚡ Industrial IoT & Hardware R&D** | `C++`, `ESP-IDF`, `STM32Cube`, `FreeRTOS`, `LoRaWAN`, `RS-485 / Modbus` | Custom PCB schematic design, Hardware-in-the-Loop (HIL) testing, telemetry RF modulation, edge sensor arrays. |
+| **☁️ Enterprise Cloud & Backend** | `Go 1.22`, `Next.js 16`, `Node.js`, `Python FastAPI`, `PostgreSQL 16`, `Redis 7` | Clean Architecture, high-concurrency microservices (18k+ req/s), WebSockets live streaming, append-only audit ledgers. |
+| **📱 Mission-Critical Mobile** | `Flutter 3.x`, `Dart`, `Android Native (Kotlin)`, `SQLite DTN` | Disruption-Tolerant Networking (DTN), transactional offline queue synchronization, anti-mock GPS geofencing. |
+| **🏭 Industry 4.0 & Automation** | `MQTT`, `TLS 1.3`, `SCADA Integration`, `PLC Modbus`, `EdgeBox-ESP-100` | Real-time OEE machine monitoring, telemetry data loggers, industrial environmental early warning telemetry. |
+| **🧠 Applied AI & Computer Vision** | `PyTorch`, `SigLIP ViT`, `OpenCV`, `ONNX Runtime`, `TensorRT` | Zero-shot visual classification, automated industrial defect inspection, edge inference with sub-15ms latency. |
+| **🎨 Product Design & UI/UX** | `Figma`, `Design Systems`, `Tailwind CSS 4`, `WCAG AA Contrast` | User-centric interface architecture, design tokens, responsive web dashboards, accessibility ergonomics. |
+
+---
+
+## 🌟 Flagship Client Deployments & Proven Solutions
+
+Our engineering squads deliver systems trusted by national defense, law enforcement, manufacturing giants, and precision agriculture:
+
+| Sector | Strategic Partner / Client | Deployed Solution Architecture |
+|:---|:---|:---|
+| 🏭 **Automotive & Manufacturing** | **PT Isuzu Astra Motor Indonesia** | **OEE (Overall Equipment Effectiveness) Real-Time Monitoring System** for assembly line telemetry and uptime analytics. |
+| 🚓 **Public Safety & Police** | **Polda Jawa Barat** & **Polresta Jayapura** | **E-ISDITLANTAS & e-Polres Platforms**: Mission-critical field tracking, anti-mock GPS geofencing, and digital police evaluation. |
+| 🚨 **Disaster Mitigation & Gov** | **BNPB (National Disaster Agency)** | **E-Trans & MakeSens Early Warning System**: Real-time river water level monitoring and telemetry sensors. |
+| 🌾 **Smart AgriTech** | **Bitanic Platform & Consortium** | **Bitanic AgriTech Suite**: Multi-tier mobile/web precision agriculture, soil NPK analysis, and subsoil telemetry arrays. |
+| 🛡️ **Defense & Tactical IoT** | **Military Field Squads** | **Tactical LoRa Mesh Rompi Militer**: Disruption-tolerant wearable telemetry mesh nodes for real-time personnel location. |
+| 🌏 **International Automation** | **Autologix Vietnam** | **Production Monitoring System (PMS)**: Automated industrial assembly line data acquisition and dashboarding. |
+| 🎓 **Higher Education R&D** | **UNIKOM & UPI Consortium** | Collaborative research labs, IoT development kits (IoT Kit V3/V4), and national engineering bootcamps. |
+
+---
+
+## 🤝 Flexible Engagement Models for Clients
+
+Whether you are an early-stage startup looking for rapid prototyping or an enterprise requiring an institutional-grade overhaul:
+
+```
++-----------------------------------+-----------------------------------+-----------------------------------+
+|     🚀 FULL TURNKEY SOLUTION      |    ⚡ DEDICATED R&D SQUAD         |   🔬 PROOF-OF-CONCEPT TO SCALE    |
++-----------------------------------+-----------------------------------+-----------------------------------+
+| • End-to-end hardware to cloud    | • Senior embedded, cloud & mobile | • Fast hardware prototyping (2-4w)|
+| • Fixed-scope & transparent SLA   | • Agile integration with your team| • Architecture validation & MVP   |
+| • Full IP & source code transfer  | • Continuous sprints & delivery   | • Pilot trial to mass production  |
++-----------------------------------+-----------------------------------+-----------------------------------+
+```
+
+---
+
+## 🛡️ Quality Assurance & ISO Governance
+
+Makerindo enforces rigorous international engineering standards across every code commit and circuit layout:
+
+- **ISO/IEC 25010:2023 (Systems & Software Product Quality)**: Zero redundant code, sub-second API response times, and high fault tolerance.
+- **ISO/IEC 27001:2022 (Information Security Management)**: Cryptographically verified commit pipelines (GPG Ed25519), zero credential leakage, and strict secret hygiene.
+- **ISO/IEC 12207:2017 (Systems & Software Lifecycle Processes)**: Automated regression gates, trunk-based `main` branch discipline, and structured semantic versioning.
+- **ISO 9001:2015 (Quality Management Assurance)**: Customer satisfaction tracking, continuous delivery milestones, and formal post-deployment SLA support.
+
+---
+
+## 👨‍💻 Engineering Culture & Employee Pride
+
+To our engineers, developers, and researchers: every repository under `@makerindo-repository` represents craftsmanship, architectural diligence, and professional pride.
+- **100% Cryptographically Verified**: Commits signed with hardware/GPG keys.
+- **Zero AI-Hallucinated Commits**: Code authored, reviewed, and audited by real engineers.
+- **Clean Architecture & Maintainability**: Written to stand the test of time and scale effortlessly.
+
+---
+
+## 📬 Start a Project / Corporate Inquiries
+
+Ready to build your next breakthrough solution? Let's talk.
+
+- **Corporate Portal**: [https://makerindo.co.id/](https://makerindo.co.id/)
+- **Project & Partnership Inquiries**: [cs@makerindo.co.id](mailto:cs@makerindo.co.id)
+- **Direct WhatsApp / Phone**: [+62 815-4686-5286](https://wa.me/6281546865286)
+- **Headquarters**: Komplek Pesona Ciganitri Blok A39, Cipagalo, Bojongsoang, Kab. Bandung, Jawa Barat 40287, Indonesia
+- **Official Socials**: [LinkedIn](https://www.linkedin.com/company/makerindo-prima-solusi) · [Instagram (@makerdotindo)](https://instagram.com/makerdotindo) · [YouTube](https://youtube.com/@makerindoprimasolusi)
+
+<div align="center">
+
+<sub>Copyright © 2019 – 2026 **Makerindo Prima Solusi**. All rights reserved.</sub>  
+<sub><em>Build Solution without Exception</em></sub>
 
 </div>
