@@ -1,217 +1,183 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
   <defs>
-    <!-- Corporate Color Gradients -->
+    <!-- Background Gradients -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#070B14"/>
-      <stop offset="40%" stop-color="#0A1124"/>
-      <stop offset="100%" stop-color="#0F172A"/>
+      <stop offset="50%" stop-color="#0A1122"/>
+      <stop offset="100%" stop-color="#0E172B"/>
     </linearGradient>
 
+    <!-- Top & Center Accent Gradients -->
     <linearGradient id="topLineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00ADD8"/>
+      <stop offset="0%" stop-color="#00ADD8" stop-opacity="0.2"/>
+      <stop offset="25%" stop-color="#00ADD8"/>
       <stop offset="50%" stop-color="#10B981"/>
-      <stop offset="100%" stop-color="#10507C"/>
+      <stop offset="75%" stop-color="#00ADD8"/>
+      <stop offset="100%" stop-color="#00ADD8" stop-opacity="0.2"/>
     </linearGradient>
 
-    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#162032" stop-opacity="0.95"/>
-      <stop offset="100%" stop-color="#0D1524" stop-opacity="0.98"/>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#162238" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#0D1526" stop-opacity="0.95"/>
     </linearGradient>
 
-    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00ADD8" stop-opacity="0.15"/>
-      <stop offset="100%" stop-color="#10B981" stop-opacity="0.15"/>
-    </linearGradient>
+    <radialGradient id="centerGlow" cx="50%" cy="35%" r="45%">
+      <stop offset="0%" stop-color="#00ADD8" stop-opacity="0.12"/>
+      <stop offset="60%" stop-color="#10507C" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#070B14" stop-opacity="0"/>
+    </radialGradient>
 
-    <!-- Precise Engineering Blueprint Grid (24px modular unit) -->
+    <!-- Symmetrical Modular Grid -->
     <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#1E293B" stroke-width="0.75" stroke-opacity="0.55"/>
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#1E293B" stroke-width="0.75" stroke-opacity="0.45"/>
     </pattern>
-
-    <!-- Radial Soft Glows -->
-    <radialGradient id="glowRight" cx="70%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#00ADD8" stop-opacity="0.08"/>
-      <stop offset="100%" stop-color="#00ADD8" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="glowLeft" cx="20%" cy="30%" r="40%">
-      <stop offset="0%" stop-color="#10507C" stop-opacity="0.12"/>
-      <stop offset="100%" stop-color="#10507C" stop-opacity="0"/>
-    </radialGradient>
   </defs>
 
   <style>
     .font-base { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro Display', Roboto, 'Helvetica Neue', Arial, sans-serif; }
     .font-mono { font-family: 'SF Mono', Monaco, Consolas, 'Liberation Mono', Menlo, monospace; }
     
-    .corp-title { font-size: 32px; font-weight: 800; fill: #FFFFFF; letter-spacing: -0.6px; }
-    .corp-tagline { font-size: 16px; font-weight: 600; fill: #00ADD8; letter-spacing: 0.2px; }
-    .corp-desc { font-size: 12.5px; fill: #94A3B8; line-height: 20px; font-weight: 400; }
+    .corp-title { font-size: 32px; font-weight: 800; fill: #FFFFFF; letter-spacing: -0.5px; text-anchor: middle; }
+    .corp-tagline { font-size: 15px; font-weight: 600; fill: #00ADD8; letter-spacing: 0.5px; text-anchor: middle; text-transform: uppercase; }
+    .corp-desc { font-size: 12.5px; fill: #94A3B8; font-weight: 400; text-anchor: middle; }
     
-    .cat-badge-text { font-size: 10.5px; font-weight: 700; fill: #38BDF8; letter-spacing: 0.8px; text-transform: uppercase; }
-    .iso-badge-text { font-size: 10.5px; font-weight: 600; fill: #E2E8F0; }
-    .loc-text { font-size: 11px; font-weight: 600; fill: #10B981; }
+    .cat-badge-text { font-size: 10px; font-weight: 700; fill: #38BDF8; letter-spacing: 1px; text-anchor: middle; text-transform: uppercase; }
+    .iso-badge-text { font-size: 10px; font-weight: 600; fill: #CBD5E1; text-anchor: middle; }
     
     .card-title { font-size: 13px; font-weight: 700; fill: #F8FAFC; letter-spacing: -0.2px; }
-    .card-sub { font-size: 10px; font-weight: 500; fill: #64748B; }
+    .card-sub { font-size: 9.5px; font-weight: 500; fill: #64748B; }
+    .card-detail { font-size: 10.5px; fill: #94A3B8; font-weight: 400; }
     .card-metric { font-size: 10.5px; font-weight: 600; }
-    .card-detail { font-size: 11px; fill: #94A3B8; font-weight: 400; }
   </style>
 
-  <!-- Base Canvas -->
-  <rect width="1200" height="340" fill="url(#bgGrad)"/>
-  <rect width="1200" height="340" fill="url(#grid)"/>
-  <rect width="1200" height="340" fill="url(#glowLeft)"/>
-  <rect width="1200" height="340" fill="url(#glowRight)"/>
+  <!-- Background Base Canvas -->
+  <rect width="1200" height="360" fill="url(#bgGrad)"/>
+  <rect width="1200" height="360" fill="url(#grid)"/>
+  <rect width="1200" height="360" fill="url(#centerGlow)"/>
 
   <!-- Outer Architectural Framing -->
-  <rect x="0.5" y="0.5" width="1199" height="339" fill="none" stroke="#1E293B" stroke-width="1"/>
+  <rect x="0.5" y="0.5" width="1199" height="359" fill="none" stroke="#1E293B" stroke-width="1"/>
   
   <!-- Symmetrical Header Accent Bar -->
   <rect x="0" y="0" width="1200" height="3.5" fill="url(#topLineGrad)"/>
 
-  <!-- Left Wing: Corporate Identity and Value Proposition -->
-  <g transform="translate(48, 38)" class="font-base">
+  <!-- ==================== CENTER SECTION: EXECUTIVE HERO IDENTITY ==================== -->
+  <!-- Center Axis: X = 600 -->
+  <g transform="translate(600, 24)" class="font-base">
     
-    <!-- Category Identification Badge -->
-    <g transform="translate(0, 0)">
-      <rect x="0" y="0" width="248" height="26" rx="13" fill="url(#badgeGrad)" stroke="#0284C7" stroke-width="1"/>
-      <circle cx="13" cy="13" r="4.5" fill="#10B981"/>
-      <text x="26" y="17" class="cat-badge-text">ENTERPRISE R&amp;D LAB · EST. 2019</text>
-    </g>
+    <!-- Top Pill Badge (Centered: width=260, x=-130) -->
+    <rect x="-130" y="0" width="260" height="24" rx="12" fill="#0E1A2E" stroke="#0284C7" stroke-width="1"/>
+    <circle cx="-114" cy="12" r="4" fill="#10B981"/>
+    <text x="6" y="15.5" class="cat-badge-text font-mono">ENTERPRISE R&amp;D LAB · EST. 2019</text>
 
-    <!-- Company Name and Official Tagline -->
-    <text x="0" y="58" class="corp-title">PT Makerindo Prima Solusi</text>
-    <text x="0" y="82" class="corp-tagline">Build Solution without Exception</text>
+    <!-- Company Name (Centered) -->
+    <text x="0" y="56" class="corp-title">PT Makerindo Prima Solusi</text>
 
-    <!-- Mission and Scope Description -->
-    <text x="0" y="114" class="corp-desc">Leading technology consultancy and institutional engineering laboratory</text>
-    <text x="0" y="134" class="corp-desc">specializing in Cyber-Physical Systems, Industrial IoT, High-Availability</text>
-    <text x="0" y="154" class="corp-desc">Distributed Cloud, and Applied AI for mission-critical operations.</text>
+    <!-- Corporate Tagline (Centered) -->
+    <text x="0" y="80" class="corp-tagline font-mono">Build Solution without Exception</text>
 
-    <!-- Client Impact Sectors Chip Row -->
-    <g transform="translate(0, 182)">
-      <rect x="0" y="0" width="512" height="28" rx="6" fill="#0D1524" stroke="#1E293B" stroke-width="1"/>
-      <text x="14" y="18" class="font-mono" font-size="10" fill="#64748B">SECTORS // DEFENSE · PRECISION AGRI · INDUSTRY · R&amp;D ACADEMIA</text>
-    </g>
+    <!-- Scope Description (Centered) -->
+    <text x="0" y="104" class="corp-desc">Cyber-Physical Systems · Industrial IoT · Distributed Cloud Platforms · Applied Vision AI</text>
+    <text x="0" y="122" class="corp-desc" fill="#64748B" font-size="11.5">Empowering National Defense, Precision Agriculture, Smart Manufacturing, and Higher Education R&amp;D</text>
 
-    <!-- ISO Governance Baseline and Operational Location -->
-    <g transform="translate(0, 226)">
-      <!-- ISO 25010 -->
-      <g transform="translate(0, 0)">
-        <rect x="0" y="0" width="112" height="26" rx="5" fill="#0D1524" stroke="#1E293B" stroke-width="1"/>
-        <text x="12" y="17" class="font-mono iso-badge-text">ISO 25010</text>
-      </g>
-      <!-- ISO 27001 -->
-      <g transform="translate(122, 0)">
-        <rect x="0" y="0" width="112" height="26" rx="5" fill="#0D1524" stroke="#1E293B" stroke-width="1"/>
-        <text x="12" y="17" class="font-mono iso-badge-text">ISO 27001</text>
-      </g>
-      <!-- ISO 12207 -->
-      <g transform="translate(244, 0)">
-        <rect x="0" y="0" width="112" height="26" rx="5" fill="#0D1524" stroke="#1E293B" stroke-width="1"/>
-        <text x="12" y="17" class="font-mono iso-badge-text">ISO 12207</text>
-      </g>
-      <!-- Location Indicator -->
-      <g transform="translate(372, 17)">
-        <circle cx="0" cy="-3" r="3.5" fill="#10B981"/>
-        <text x="8" y="0" class="loc-text">Bandung, West Java, ID</text>
-      </g>
+    <!-- Centered ISO Compliance Badges Row -->
+    <g transform="translate(0, 136)">
+      <!-- ISO 25010 (width=96, x=-222) -->
+      <rect x="-222" y="0" width="96" height="22" rx="4" fill="#0A1120" stroke="#1E293B" stroke-width="1"/>
+      <text x="-174" y="14.5" class="font-mono iso-badge-text">ISO 25010</text>
+
+      <!-- ISO 27001 (width=96, x=-114) -->
+      <rect x="-114" y="0" width="96" height="22" rx="4" fill="#0A1120" stroke="#1E293B" stroke-width="1"/>
+      <text x="-66" y="14.5" class="font-mono iso-badge-text">ISO 27001</text>
+
+      <!-- ISO 12207 (width=96, x=-6) -->
+      <rect x="-6" y="0" width="96" height="22" rx="4" fill="#0A1120" stroke="#1E293B" stroke-width="1"/>
+      <text x="42" y="14.5" class="font-mono iso-badge-text">ISO 12207</text>
+
+      <!-- ISO 42001 (width=96, x=102) -->
+      <rect x="102" y="0" width="96" height="22" rx="4" fill="#0A1120" stroke="#1E293B" stroke-width="1"/>
+      <text x="150" y="14.5" class="font-mono iso-badge-text">ISO 42001</text>
+
+      <!-- Location Indicator (width=140, x=210) -->
+      <circle cx="220" cy="11" r="3.5" fill="#10B981"/>
+      <text x="230" y="14.5" class="font-base" font-size="10.5" font-weight="600" fill="#10B981">Bandung, ID</text>
     </g>
 
   </g>
 
-  <!-- Vertical Architectural Divider -->
-  <line x1="584" y1="38" x2="584" y2="302" stroke="#1E293B" stroke-width="1" stroke-dasharray="4 4"/>
+  <!-- Horizontal Symmetrical Divider -->
+  <line x1="48" y1="184" x2="1152" y2="184" stroke="#1E293B" stroke-width="1"/>
 
-  <!-- Right Wing: 4 Symmetrical Division Cards (2x2 Grid) -->
-  <g transform="translate(608, 38)" class="font-base">
+  <!-- ==================== BOTTOM ROW: 4 SYMMETRICAL DIVISION CARDS ==================== -->
+  <!-- Mathematical Grid: Canvas 1200px, Left/Right Margins=48px, Total Active=1104px -->
+  <!-- 4 Cards x 264px = 1056px + 3 Gutters x 16px = 48px -> Exactly 1104px (Symmetric around X=600) -->
+  <g transform="translate(48, 196)" class="font-base">
 
-    <!-- Card 01: IoT & Embedded Hardware -->
+    <!-- Card 01: IoT & Embedded Hardware (X = 0) -->
     <g transform="translate(0, 0)">
-      <rect x="0" y="0" width="264" height="124" rx="8" fill="url(#cardGrad)" stroke="#1E293B" stroke-width="1"/>
+      <rect x="0" y="0" width="264" height="142" rx="8" fill="url(#cardGrad)" stroke="#1E293B" stroke-width="1"/>
+      <rect x="14" y="12" width="28" height="28" rx="6" fill="#0A1120" stroke="#0284C7" stroke-width="1"/>
+      <path d="M22 22h12v12H22z" fill="none" stroke="#00ADD8" stroke-width="1.6"/>
+      <path d="M25 19v3m6-3v3m-6 12v3m6-3v3M19 25h3m-3 6h3m12-6h3m-3 6h3" stroke="#00ADD8" stroke-width="1.6"/>
+      <text x="50" y="24" class="card-title">IoT &amp; Embedded</text>
+      <text x="50" y="37" class="card-sub font-mono">ESP-IDF · STM32 · LoRaWAN</text>
       
-      <!-- Icon Container -->
-      <rect x="14" y="14" width="32" height="32" rx="7" fill="#0A1120" stroke="#0284C7" stroke-width="1"/>
-      <path d="M24 24h12v12H24z" fill="none" stroke="#00ADD8" stroke-width="1.6"/>
-      <path d="M27 21v3m6-3v3m-6 12v3m6-3v3M21 27h3m-3 6h3m12-6h3m-3 6h3" stroke="#00ADD8" stroke-width="1.6"/>
-
-      <!-- Header and Stack -->
-      <text x="56" y="27" class="card-title">IoT &amp; Embedded Hardware</text>
-      <text x="56" y="41" class="card-sub font-mono">ESP-IDF · STM32 · LoRaWAN</text>
+      <line x1="14" y1="48" x2="250" y2="48" stroke="#1E293B" stroke-width="1"/>
       
-      <!-- Divider Line -->
-      <line x1="14" y1="58" x2="250" y2="58" stroke="#1E293B" stroke-width="1"/>
-      
-      <!-- Project and Reliability -->
-      <text x="14" y="78" class="card-detail">Rapid Soil Checker (RSC) · Sensors</text>
-      <text x="14" y="96" class="font-mono card-metric" fill="#00ADD8">Sub-10ms Telemetry · RS-485</text>
-      <text x="14" y="112" class="font-mono" font-size="9.5" fill="#10B981">● 0 Packet Loss SLA Guarantee</text>
+      <text x="14" y="68" class="card-detail">Rapid Soil Checker (RSC) · NPK</text>
+      <text x="14" y="86" class="card-detail">Industrial Modbus RTU / RS-485</text>
+      <text x="14" y="106" class="font-mono card-metric" fill="#00ADD8">Sub-10ms Sensor Telemetry</text>
+      <text x="14" y="124" class="font-mono" font-size="9.5" fill="#10B981">● 0 Packet Loss Guarantee</text>
     </g>
 
-    <!-- Card 02: Distributed Cloud and Web -->
+    <!-- Card 02: Distributed Cloud & Web (X = 280) -->
     <g transform="translate(280, 0)">
-      <rect x="0" y="0" width="264" height="124" rx="8" fill="url(#cardGrad)" stroke="#1E293B" stroke-width="1"/>
+      <rect x="0" y="0" width="264" height="142" rx="8" fill="url(#cardGrad)" stroke="#1E293B" stroke-width="1"/>
+      <rect x="14" y="12" width="28" height="28" rx="6" fill="#0A1120" stroke="#059669" stroke-width="1"/>
+      <path d="M22 29a4.5 4.5 0 0 1 0-9 5.5 5.5 0 0 1 10-2 4.5 4.5 0 0 1 3 11H22z" fill="none" stroke="#10B981" stroke-width="1.6"/>
+      <text x="50" y="24" class="card-title">Distributed Cloud</text>
+      <text x="50" y="37" class="card-sub font-mono">Next.js 16 · Go 1.22 · Postgres</text>
       
-      <!-- Icon Container -->
-      <rect x="14" y="14" width="32" height="32" rx="7" fill="#0A1120" stroke="#059669" stroke-width="1"/>
-      <path d="M24 33a5 5 0 0 1 0-10 6 6 0 0 1 11-2 5 5 0 0 1 3 12H24z" fill="none" stroke="#10B981" stroke-width="1.6"/>
-      <circle cx="34" cy="27" r="1.5" fill="#10B981"/>
-
-      <!-- Header and Stack -->
-      <text x="56" y="27" class="card-title">Distributed Cloud &amp; Web</text>
-      <text x="56" y="41" class="card-sub font-mono">Next.js 16 · Go 1.22 · Postgres</text>
+      <line x1="14" y1="48" x2="250" y2="48" stroke="#1E293B" stroke-width="1"/>
       
-      <!-- Divider Line -->
-      <line x1="14" y1="58" x2="250" y2="58" stroke="#1E293B" stroke-width="1"/>
-      
-      <!-- Project and Reliability -->
-      <text x="14" y="78" class="card-detail">High-Throughput Microservices</text>
-      <text x="14" y="96" class="font-mono card-metric" fill="#10B981">18.6k Req/sec · Redis 7 Cluster</text>
-      <text x="14" y="112" class="font-mono" font-size="9.5" fill="#10B981">● 99.99% High Availability</text>
+      <text x="14" y="68" class="card-detail">High-Throughput Microservices</text>
+      <text x="14" y="86" class="card-detail">Redis 7 Cluster · WebSockets</text>
+      <text x="14" y="106" class="font-mono card-metric" fill="#10B981">18.6k Req/sec Concurrency</text>
+      <text x="14" y="124" class="font-mono" font-size="9.5" fill="#10B981">● 99.99% High Availability</text>
     </g>
 
-    <!-- Card 03: Mission-Critical Mobile -->
-    <g transform="translate(0, 140)">
-      <rect x="0" y="0" width="264" height="124" rx="8" fill="url(#cardGrad)" stroke="#1E293B" stroke-width="1"/>
+    <!-- Card 03: Mission-Critical Mobile (X = 560) -->
+    <g transform="translate(560, 0)">
+      <rect x="0" y="0" width="264" height="142" rx="8" fill="url(#cardGrad)" stroke="#1E293B" stroke-width="1"/>
+      <rect x="14" y="12" width="28" height="28" rx="6" fill="#0A1120" stroke="#D97706" stroke-width="1"/>
+      <rect x="23" y="18" width="10" height="16" rx="2" fill="none" stroke="#F59E0B" stroke-width="1.6"/>
+      <circle cx="28" cy="30" r="1" fill="#F59E0B"/>
+      <text x="50" y="24" class="card-title">Mission Mobile</text>
+      <text x="50" y="37" class="card-sub font-mono">Flutter 3.x · Dart · SQLite DTN</text>
       
-      <!-- Icon Container -->
-      <rect x="14" y="14" width="32" height="32" rx="7" fill="#0A1120" stroke="#D97706" stroke-width="1"/>
-      <rect x="25" y="21" width="10" height="18" rx="2" fill="none" stroke="#F59E0B" stroke-width="1.6"/>
-      <circle cx="30" cy="34" r="1.2" fill="#F59E0B"/>
-
-      <!-- Header and Stack -->
-      <text x="56" y="27" class="card-title">Mission-Critical Mobile</text>
-      <text x="56" y="41" class="card-sub font-mono">Flutter 3.x · Dart · SQLite DTN</text>
+      <line x1="14" y1="48" x2="250" y2="48" stroke="#1E293B" stroke-width="1"/>
       
-      <!-- Divider Line -->
-      <line x1="14" y1="58" x2="250" y2="58" stroke="#1E293B" stroke-width="1"/>
-      
-      <!-- Project and Reliability -->
-      <text x="14" y="78" class="card-detail">Anti-Mock GPS Geofence Engine</text>
-      <text x="14" y="96" class="font-mono card-metric" fill="#F59E0B">Store-and-Forward Offline Sync</text>
-      <text x="14" y="112" class="font-mono" font-size="9.5" fill="#10B981">● Zero Data Loss Concurrency</text>
+      <text x="14" y="68" class="card-detail">Anti-Mock GPS Geofence Engine</text>
+      <text x="14" y="86" class="card-detail">Cadet &amp; Fleet Real-Time Tracker</text>
+      <text x="14" y="106" class="font-mono card-metric" fill="#F59E0B">Store-and-Forward Offline Sync</text>
+      <text x="14" y="124" class="font-mono" font-size="9.5" fill="#10B981">● Zero Data Loss Concurrency</text>
     </g>
 
-    <!-- Card 04: Applied AI and Vision -->
-    <g transform="translate(280, 140)">
-      <rect x="0" y="0" width="264" height="124" rx="8" fill="url(#cardGrad)" stroke="#1E293B" stroke-width="1"/>
+    <!-- Card 04: Applied AI & Vision (X = 840) -->
+    <g transform="translate(840, 0)">
+      <rect x="0" y="0" width="264" height="142" rx="8" fill="url(#cardGrad)" stroke="#1E293B" stroke-width="1"/>
+      <rect x="14" y="12" width="28" height="28" rx="6" fill="#0A1120" stroke="#7C3AED" stroke-width="1"/>
+      <circle cx="28" cy="24" r="4" fill="none" stroke="#A855F7" stroke-width="1.6"/>
+      <path d="M21 32c0-3.5 3.5-5.5 7-5.5s7 2 7 5.5" fill="none" stroke="#A855F7" stroke-width="1.6"/>
+      <text x="50" y="24" class="card-title">Applied AI &amp; Vision</text>
+      <text x="50" y="37" class="card-sub font-mono">SigLIP ViT · PyTorch · OpenCV</text>
       
-      <!-- Icon Container -->
-      <rect x="14" y="14" width="32" height="32" rx="7" fill="#0A1120" stroke="#7C3AED" stroke-width="1"/>
-      <circle cx="30" cy="27" r="4.5" fill="none" stroke="#A855F7" stroke-width="1.6"/>
-      <path d="M22 35c0-4 4-6 8-6s8 2 8 6" fill="none" stroke="#A855F7" stroke-width="1.6"/>
-
-      <!-- Header and Stack -->
-      <text x="56" y="27" class="card-title">Applied AI &amp; Computer Vision</text>
-      <text x="56" y="41" class="card-sub font-mono">SigLIP ViT · PyTorch · OpenCV</text>
+      <line x1="14" y1="48" x2="250" y2="48" stroke="#1E293B" stroke-width="1"/>
       
-      <!-- Divider Line -->
-      <line x1="14" y1="58" x2="250" y2="58" stroke="#1E293B" stroke-width="1"/>
-      
-      <!-- Project and Reliability -->
-      <text x="14" y="78" class="card-detail">Zero-Shot Edge Visual Inspection</text>
-      <text x="14" y="96" class="font-mono card-metric" fill="#A855F7">Sub-15ms Edge AI Inference</text>
-      <text x="14" y="112" class="font-mono" font-size="9.5" fill="#10B981">● ISO 42001 &amp; 25059 Validated</text>
+      <text x="14" y="68" class="card-detail">Zero-Shot Visual Classification</text>
+      <text x="14" y="86" class="card-detail">Automated Edge Defect Inspection</text>
+      <text x="14" y="106" class="font-mono card-metric" fill="#A855F7">Sub-15ms Edge AI Inference</text>
+      <text x="14" y="124" class="font-mono" font-size="9.5" fill="#10B981">● ISO 42001 &amp; 25059 Validated</text>
     </g>
 
   </g>
