@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/makerindo-repository/.github/main/makerindo-banner.png" alt="Makerindo Prima Solusi Enterprise Header" width="100%" />
+<img src="https://raw.githubusercontent.com/makerindo-repository/.github/main/makerindo-architecture-banner.png" alt="Makerindo Prima Solusi Enterprise Header" width="100%" />
 
 <br/>
 
