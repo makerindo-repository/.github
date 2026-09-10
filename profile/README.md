@@ -17,9 +17,9 @@
 
 ## 🚀 About Us: Build Solution without Exception
 
-**Makerindo Prima Solusi** is an agile technology consultancy and advanced R&D engineering laboratory founded in June 2019 in Bandung, Indonesia. We operate as an end-to-end cyber-physical solutions house — bridging custom embedded hardware, industrial IoT telemetry, distributed enterprise cloud, cross-platform mobile, and applied artificial intelligence.
+**Makerindo Prima Solusi** is an agile technology engineering consultancy and advanced R&D laboratory founded in June 2019 in Bandung, Indonesia. We engineer mission-critical systems across the entire technology spectrum — custom embedded silicon, industrial telemetry arrays, distributed enterprise cloud, high-consequence mobile apps, and applied vision AI.
 
-Under the institutional doctrine **"Build Solution without Exception"**, we partner with global startups, large enterprise conglomerates, and government bodies. Whatever your operational challenge or tech stack, we engineer, validate, and scale the complete solution.
+Under our corporate doctrine **"Build Solution without Exception"**, we adapt seamlessly to client requirements worldwide. Whether you need rapid hardware prototyping, legacy systems modernization, or high-throughput microservices, our multidisciplinary squads architect, validate, and scale your product to production.
 
 ---
 
@@ -35,28 +35,37 @@ Under the institutional doctrine **"Build Solution without Exception"**, we part
 
 ---
 
-## 🛠️ Full-Stack Technology Capabilities ("Pake Apapun, Dari Manapun")
+## 🛠️ Polyglot & Universal Technology Capabilities
 
-We are proudly **technology-agnostic and platform-resilient**. We architect systems to fit client specifications precisely, from ultra-low-power microcontrollers to global distributed microservice clusters:
+Our engineering squads are **strictly technology-agnostic**. We select, combine, and master whichever stack provides maximum reliability, performance, and cost-efficiency for your specific project:
 
-| Engineering Pillar | Production Technology Stack | Architectural Standards & Capabilities |
+### 🌐 Polyglot Programming Languages
+`Go` · `Rust` · `C / C++` · `Python` · `TypeScript` · `JavaScript` · `Dart` · `Kotlin` · `Swift` · `Java` · `PHP` · `SQL`
+
+---
+
+### 🧩 Technology Matrix by Engineering Domain
+
+| Domain | Supported Frameworks & Technologies | Architectural Standards & Capabilities |
 |:---|:---|:---|
-| **⚡ Industrial IoT & Hardware R&D** | `C++`, `ESP-IDF`, `STM32Cube`, `FreeRTOS`, `LoRaWAN`, `RS-485 / Modbus` | Custom PCB schematic design, Hardware-in-the-Loop (HIL) testing, telemetry RF modulation, edge sensor arrays. |
-| **☁️ Enterprise Cloud & Backend** | `Go 1.22`, `Next.js 16`, `Node.js`, `Python FastAPI`, `PostgreSQL 16`, `Redis 7` | Clean Architecture, high-concurrency microservices (18k+ req/s), WebSockets live streaming, append-only audit ledgers. |
-| **📱 Mission-Critical Mobile** | `Flutter 3.x`, `Dart`, `Android Native (Kotlin)`, `SQLite DTN` | Disruption-Tolerant Networking (DTN), transactional offline queue synchronization, anti-mock GPS geofencing. |
-| **🏭 Industry 4.0 & Automation** | `MQTT`, `TLS 1.3`, `SCADA Integration`, `PLC Modbus`, `EdgeBox-ESP-100` | Real-time OEE machine monitoring, telemetry data loggers, industrial environmental early warning telemetry. |
-| **🧠 Applied AI & Computer Vision** | `PyTorch`, `SigLIP ViT`, `OpenCV`, `ONNX Runtime`, `TensorRT` | Zero-shot visual classification, automated industrial defect inspection, edge inference with sub-15ms latency. |
-| **🎨 Product Design & UI/UX** | `Figma`, `Design Systems`, `Tailwind CSS 4`, `WCAG AA Contrast` | User-centric interface architecture, design tokens, responsive web dashboards, accessibility ergonomics. |
+| **⚡ Embedded Systems & IoT Hardware** | `ESP-IDF`, `STM32Cube`, `FreeRTOS`, `Zephyr`, `Arduino`, `Raspberry Pi`, `NVIDIA Jetson`, `LoRaWAN`, `RS-485 / Modbus RTU`, `CAN Bus`, `BLE`, `Zigbee` | Custom PCB schematic & layout design, Hardware-in-the-Loop (HIL) automated testing, sub-10ms sensor telemetry, RF impedance matching, battery-optimized firmware. |
+| **☁️ Backend & Cloud Microservices** | `Go (Gin/Fiber)`, `Next.js 16`, `Node.js (Nest/Express)`, `Python (FastAPI/Django)`, `Rust (Axum)`, `PostgreSQL`, `MySQL`, `MongoDB`, `Redis Cluster` | Clean Architecture, high-concurrency event-driven microservices (18k+ req/s), real-time WebSockets streaming, ACID transaction ledgers, timeseries data logging. |
+| **🖥️ Frontend & Enterprise Web** | `React 19`, `Next.js`, `Vue.js 3 / Nuxt`, `SvelteKit`, `TypeScript`, `Tailwind CSS 4`, `GraphQL`, `gRPC-Web`, `Leaflet / Mapbox GIS` | Server Components, Turbopack builds, WCAG AAA accessibility contrast, responsive telemetry dashboards, real-time spatial GIS visualization. |
+| **📱 Cross-Platform & Native Mobile** | `Flutter 3.x`, `Dart`, `Android Native (Kotlin)`, `iOS Native (Swift)`, `React Native`, `SQLite`, `Hive`, `BLoC / Riverpod` | Disruption-Tolerant Networking (DTN), local transactional offline queues, anti-mock GPS geofencing, hardware Bluetooth/NFC peripheral pairing. |
+| **🏭 Industry 4.0 & Automation** | `PLC (Siemens, Mitsubishi)`, `SCADA Integration`, `MQTT / Sparkplug B`, `Modbus TCP/RTU`, `OPC UA`, `Node-RED`, `EdgeBox-ESP-100` | Real-time OEE (Overall Equipment Effectiveness) machine telemetry, automated factory sensor acquisition, edge compute gateways, environmental safety sensors. |
+| **🧠 Applied AI & Computer Vision** | `PyTorch`, `TensorFlow`, `OpenCV`, `SigLIP ViT`, `YOLOv8-v11`, `ONNX Runtime`, `TensorRT`, `Hugging Face`, `LangChain / RAG` | Sub-15ms edge visual defect inspection, zero-shot classification, industrial quality control models, private on-premise LLM knowledge retrieval. |
+| **📦 DevOps, Infrastructure & Cloud** | `Docker`, `Kubernetes (K8s)`, `GitHub Actions CI/CD`, `Linux (Debian/RHEL/Ubuntu)`, `AWS`, `Google Cloud (GCP)`, `Nginx`, `Traefik`, `GPG` | Multi-stage scratch containers, automated CI security gates, GPG Ed25519 commit signing, Infrastructure as Code (IaC), zero secret leakage compliance. |
+| **🎨 UI/UX & Design Systems** | `Figma`, `Adobe Creative Suite`, `Design Tokens`, `Storybook`, `Atomic Design`, `WCAG 2.1 Guidelines` | User journey mapping, interactive click-through prototyping, design-to-code component sync, high-contrast usability auditing. |
 
 ---
 
 ## 🌟 Flagship Client Deployments & Proven Solutions
 
-Our engineering squads deliver systems trusted by national defense, law enforcement, manufacturing giants, and precision agriculture:
+Our engineering squads deliver mission-critical solutions trusted across private and public sectors:
 
 | Sector | Strategic Partner / Client | Deployed Solution Architecture |
 |:---|:---|:---|
-| 🏭 **Automotive & Manufacturing** | **PT Isuzu Astra Motor Indonesia** | **OEE (Overall Equipment Effectiveness) Real-Time Monitoring System** for assembly line telemetry and uptime analytics. |
+| 🏭 **Automotive & Manufacturing** | **PT Isuzu Astra Motor Indonesia** | **OEE (Overall Equipment Effectiveness) Real-Time Monitoring System** for assembly line telemetry and machine uptime analytics. |
 | 🚓 **Public Safety & Police** | **Polda Jawa Barat** & **Polresta Jayapura** | **E-ISDITLANTAS & e-Polres Platforms**: Mission-critical field tracking, anti-mock GPS geofencing, and digital police evaluation. |
 | 🚨 **Disaster Mitigation & Gov** | **BNPB (National Disaster Agency)** | **E-Trans & MakeSens Early Warning System**: Real-time river water level monitoring and telemetry sensors. |
 | 🌾 **Smart AgriTech** | **Bitanic Platform & Consortium** | **Bitanic AgriTech Suite**: Multi-tier mobile/web precision agriculture, soil NPK analysis, and subsoil telemetry arrays. |
@@ -68,7 +77,7 @@ Our engineering squads deliver systems trusted by national defense, law enforcem
 
 ## 🤝 Flexible Engagement Models for Clients
 
-Whether you are an early-stage startup looking for rapid prototyping or an enterprise requiring an institutional-grade overhaul:
+Whether you are an early-stage startup needing rapid prototyping or an enterprise requiring an institutional overhaul:
 
 ```
 +-----------------------------------+-----------------------------------+-----------------------------------+
