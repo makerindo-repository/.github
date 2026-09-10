@@ -1,0 +1,15 @@
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# AI tooling exclusions (ISO 12207 tooling isolation)
+.agent/
+.skills/
+AGENTS.md
+CLAUDE.md
