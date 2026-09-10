@@ -6,9 +6,9 @@
 
 [![Official Website](https://img.shields.io/badge/Official_Portal-makerindo.co.id-0B132B?style=for-the-badge&logo=google-chrome&logoColor=00ADD8)](https://makerindo.co.id/)
 [![Book Consultation](https://img.shields.io/badge/Client_Inquiries-Start_a_Project-00ADD8?style=for-the-badge&logo=telegram&logoColor=white)](mailto:cs@makerindo.co.id?subject=Project%20Inquiry%20-%20Makerindo%20Prima%20Solusi)
-[![ISO 25010](https://img.shields.io/badge/ISO%2FIEC_25010-Software_Quality-0B132B?style=for-the-badge&logo=checkmarx&logoColor=10B981)](#-quality-assurance--iso-governance)
+[![ISO 25010](https://img.shields.io/badge/ISO%2FIEC_25010-Software_Quality-0B132B?style=for-the-badge&logo=checkmarx&logoColor=10B981)](#iso-governance)
 [![ISO 27001](https://img.shields.io/badge/ISO%2FIEC_27001-Information_Security-0B132B?style=for-the-badge&logo=auth0&logoColor=38BDF8)](SECURITY.md)
-[![ISO 12207](https://img.shields.io/badge/ISO%2FIEC_12207-Lifecycle_Systems-0B132B?style=for-the-badge&logo=git&logoColor=F59E0B)](#-quality-assurance--iso-governance)
+[![ISO 12207](https://img.shields.io/badge/ISO%2FIEC_12207-Lifecycle_Systems-0B132B?style=for-the-badge&logo=git&logoColor=F59E0B)](#iso-governance)
 [![Headquarters](https://img.shields.io/badge/Bandung-West_Java%2C_ID-0B132B?style=for-the-badge&logo=googlemaps&logoColor=EF4444)](https://maps.google.com/?q=Makerindo+Prima+Solusi)
 
 </div>
@@ -91,6 +91,7 @@ Whether you are an early-stage startup needing rapid prototyping or an enterpris
 
 ---
 
+<a id="iso-governance"></a>
 ## 🛡️ Quality Assurance & ISO Governance
 
 Makerindo enforces rigorous international engineering standards across every code commit and circuit layout:
@@ -115,7 +116,7 @@ To our engineers, developers, and researchers: every repository under `@makerind
 
 Ready to build your next breakthrough solution? Let's talk.
 
-- **Corporate Portal**: [https://makerindo.co.id/](https://makerindo.co.id/)
+- **Corporate Portal**: [makerindo.co.id](https://makerindo.co.id/)
 - **Project & Partnership Inquiries**: [cs@makerindo.co.id](mailto:cs@makerindo.co.id)
 - **Direct WhatsApp / Phone**: [+62 815-4686-5286](https://wa.me/6281546865286)
 - **Headquarters**: Komplek Pesona Ciganitri Blok A39, Cipagalo, Bojongsoang, Kab. Bandung, Jawa Barat 40287, Indonesia

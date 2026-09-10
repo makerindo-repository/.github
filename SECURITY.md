@@ -1,6 +1,6 @@
-# Security Policy // PT Makerindo Prima Solusi
+# Security Policy // Makerindo Prima Solusi
 
-**PT Makerindo Prima Solusi** commits to maintaining the highest security, integrity, and confidentiality standards across all our hardware, firmware, and software platforms in compliance with **ISO/IEC 27001:2022**.
+**Makerindo Prima Solusi** commits to maintaining the highest security, integrity, and confidentiality standards across all our hardware, firmware, and software platforms in compliance with **ISO/IEC 27001:2022**.
 
 ---
 
@@ -10,9 +10,9 @@ We actively support and remediate security vulnerabilities across all production
 
 | Asset Type | Supported Architecture | Status |
 |---|---|---|
-| **Industrial IoT Firmware** | ESP32 (ESP-IDF), STM32, LoRaWAN Telemetry | Supported |
-| **Enterprise Cloud & Backend** | Go (Gin, GORM), Python (FastAPI), Node.js | Supported |
-| **Enterprise Web Portals** | Next.js (App Router), React, TypeScript | Supported |
+| **Industrial IoT Firmware** | ESP32 (ESP-IDF), STM32, LoRaWAN Telemetry, Modbus | Supported |
+| **Enterprise Cloud & Backend** | Go (Gin, Fiber), Python (FastAPI), Node.js, Rust | Supported |
+| **Enterprise Web Portals** | Next.js 16, React 19, TypeScript | Supported |
 | **Mobile Applications** | Flutter (Clean Architecture, BLoC Pattern) | Supported |
 
 ---
@@ -22,8 +22,9 @@ We actively support and remediate security vulnerabilities across all production
 If you identify a vulnerability, potential data exposure, credential leak, or architectural flaw in any Makerindo service:
 
 1. **Do NOT open a public GitHub issue** or share details publicly.
-2. Email your detailed report immediately to:
-   - **Official Security Contact**: `makerdotindo@gmail.com`
+2. Email your detailed report confidentially to:
+   - **Official Security Desk**: [cs@makerindo.co.id](mailto:cs@makerindo.co.id)
+   - **Alternative Escalation**: [makerdotindo@gmail.com](mailto:makerdotindo@gmail.com)
 3. Include in your report:
    - Target repository, URL, or hardware firmware version.
    - Step-by-step reproduction instructions or Proof-of-Concept (PoC).
@@ -33,10 +34,10 @@ If you identify a vulnerability, potential data exposure, credential leak, or ar
 
 ## 3. SLA & Response Timeline
 
-Our security engineering team adheres to the following response timeline:
+Our security engineering squad adheres to the following response timeline:
 
 - **Initial Acknowledgment**: Within 24 hours of receipt.
 - **Triage & Risk Validation**: Within 3 business days.
 - **Remediation & Patch Deployment**: Within 7 to 14 business days depending on severity.
 
-We appreciate responsible security disclosures and protect reporters under our Safe Harbor principles.
+We strictly operate under **Safe Harbor** principles for ethical security researchers acting in good faith.
