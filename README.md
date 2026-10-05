@@ -7,7 +7,7 @@
 [![Official Website](https://img.shields.io/badge/Official_Portal-makerindo.co.id-0B132B?style=for-the-badge&logo=google-chrome&logoColor=00ADD8)](https://makerindo.co.id/)
 [![Book Consultation](https://img.shields.io/badge/Client_Inquiries-Start_a_Project-00ADD8?style=for-the-badge&logo=telegram&logoColor=white)](mailto:cs@makerindo.co.id?subject=Project%20Inquiry%20-%20Makerindo%20Prima%20Solusi)
 [![ISO 25010](https://img.shields.io/badge/ISO%2FIEC_25010-Software_Quality-0B132B?style=for-the-badge&logo=checkmarx&logoColor=10B981)](#iso-governance)
-[![ISO 27001](https://img.shields.io/badge/ISO%2FIEC_27001-Information_Security-0B132B?style=for-the-badge&logo=auth0&logoColor=38BDF8)](SECURITY.md)
+[![ISO 27001](https://img.shields.io/badge/ISO%2FIEC_27001-InfoSec_Hygiene-0B132B?style=for-the-badge&logo=auth0&logoColor=38BDF8)](https://github.com/makerindo-repository/.github/blob/main/SECURITY.md)
 [![ISO 12207](https://img.shields.io/badge/ISO%2FIEC_12207-Lifecycle_Systems-0B132B?style=for-the-badge&logo=git&logoColor=F59E0B)](#iso-governance)
 [![Headquarters](https://img.shields.io/badge/Bandung-West_Java%2C_ID-0B132B?style=for-the-badge&logo=googlemaps&logoColor=EF4444)](https://maps.google.com/?q=Makerindo+Prima+Solusi)
 
@@ -35,6 +35,19 @@ Under our corporate doctrine **"Build Solution without Exception"**, we adapt se
 
 ---
 
+## 🌟 Featured Public Solutions & Repositories
+
+Explore select public repositories, open telemetry platforms, and engineering starter kits maintained by Makerindo:
+
+| Repository | Engineering Domain | Highlights & Architecture |
+|:---|:---|:---|
+| 🚽 [`letsens`](https://github.com/makerindo-repository/letsens) | **Smart Sanitation & Vision AI** | Real-time IoT toilet telemetry platform integrating Google Gemini AI analytics and multi-sensor environmental sensing (UNIKOM collaboration). |
+| 🚨 [`ews-makesens`](https://github.com/makerindo-repository/ews-makesens) | **Disaster Early Warning System** | River water-level radar/ultrasonic telemetry arrays, real-time alert dispatch, and flood mitigation sensor gateways. |
+| 🌾 [`RSC-Bitanic_V1`](https://github.com/makerindo-repository/RSC-Bitanic_V1) | **Smart AgriTech Hardware** | Rapid Soil Checker (RSC) firmware for direct NPK, pH, moisture, and soil electrical conductivity (EC) analysis in the field. |
+| 💨 [`web-iot-carbon`](https://github.com/makerindo-repository/web-iot-carbon) | **Environmental & Carbon Sensing** | Real-time industrial air quality, greenhouse gas emission monitoring, and localized environmental telemetry dashboards. |
+
+---
+
 ## 🛠️ Polyglot & Universal Technology Capabilities
 
 Our engineering squads are **strictly technology-agnostic**. We select, combine, and master whichever stack provides maximum reliability, performance, and cost-efficiency for your specific project:
@@ -49,8 +62,8 @@ Our engineering squads are **strictly technology-agnostic**. We select, combine,
 | Domain | Supported Frameworks & Technologies | Architectural Standards & Capabilities |
 |:---|:---|:---|
 | **⚡ Embedded Systems & IoT Hardware** | `ESP-IDF`, `STM32Cube`, `FreeRTOS`, `Zephyr`, `Arduino`, `Raspberry Pi`, `NVIDIA Jetson`, `LoRaWAN`, `RS-485 / Modbus RTU`, `CAN Bus`, `BLE`, `Zigbee` | Custom PCB schematic & layout design, Hardware-in-the-Loop (HIL) automated testing, sub-10ms sensor telemetry, RF impedance matching, battery-optimized firmware. |
-| **☁️ Backend & Cloud Microservices** | `Go (Gin/Fiber)`, `Next.js 16`, `Node.js (Nest/Express)`, `Python (FastAPI/Django)`, `Rust (Axum)`, `PostgreSQL`, `MySQL`, `MongoDB`, `Redis Cluster` | Clean Architecture, high-concurrency event-driven microservices (18k+ req/s), real-time WebSockets streaming, ACID transaction ledgers, timeseries data logging. |
-| **🖥️ Frontend & Enterprise Web** | `React 19`, `Next.js`, `Vue.js 3 / Nuxt`, `SvelteKit`, `TypeScript`, `Tailwind CSS 4`, `GraphQL`, `gRPC-Web`, `Leaflet / Mapbox GIS` | Server Components, Turbopack builds, WCAG AAA accessibility contrast, responsive telemetry dashboards, real-time spatial GIS visualization. |
+| **☁️ Backend & Cloud Microservices** | `Go (Gin/Fiber)`, `Next.js 15`, `Node.js (Nest/Express)`, `Python (FastAPI/Django)`, `Rust (Axum)`, `PostgreSQL`, `MySQL`, `MongoDB`, `Redis Cluster` | Clean Architecture, high-concurrency event-driven microservices, real-time WebSockets streaming, ACID transaction ledgers, timeseries data logging. |
+| **🖥️ Frontend & Enterprise Web** | `React 19`, `Next.js 15`, `Vue.js 3 / Nuxt`, `SvelteKit`, `TypeScript`, `Tailwind CSS`, `GraphQL`, `gRPC-Web`, `Leaflet / Mapbox GIS` | Server Components, Turbopack builds, WCAG AAA accessibility contrast, responsive telemetry dashboards, real-time spatial GIS visualization. |
 | **📱 Cross-Platform & Native Mobile** | `Flutter 3.x`, `Dart`, `Android Native (Kotlin)`, `iOS Native (Swift)`, `React Native`, `SQLite`, `Hive`, `BLoC / Riverpod` | Disruption-Tolerant Networking (DTN), local transactional offline queues, anti-mock GPS geofencing, hardware Bluetooth/NFC peripheral pairing. |
 | **🏭 Industry 4.0 & Automation** | `PLC (Siemens, Mitsubishi)`, `SCADA Integration`, `MQTT / Sparkplug B`, `Modbus TCP/RTU`, `OPC UA`, `Node-RED`, `EdgeBox-ESP-100` | Real-time OEE (Overall Equipment Effectiveness) machine telemetry, automated factory sensor acquisition, edge compute gateways, environmental safety sensors. |
 | **🧠 Applied AI & Computer Vision** | `PyTorch`, `TensorFlow`, `OpenCV`, `SigLIP ViT`, `YOLOv8-v11`, `ONNX Runtime`, `TensorRT`, `Hugging Face`, `LangChain / RAG` | Sub-15ms edge visual defect inspection, zero-shot classification, industrial quality control models, private on-premise LLM knowledge retrieval. |
@@ -69,7 +82,7 @@ Our engineering squads deliver mission-critical solutions trusted across private
 | 🚓 **Public Safety & Police** | **Polda Jawa Barat** & **Polresta Jayapura** | **E-ISDITLANTAS & e-Polres Platforms**: Mission-critical field tracking, anti-mock GPS geofencing, and digital police evaluation. |
 | 🚨 **Disaster Mitigation & Gov** | **BNPB (National Disaster Agency)** | **E-Trans & MakeSens Early Warning System**: Real-time river water level monitoring and telemetry sensors. |
 | 🌾 **Smart AgriTech** | **Bitanic Platform & Consortium** | **Bitanic AgriTech Suite**: Multi-tier mobile/web precision agriculture, soil NPK analysis, and subsoil telemetry arrays. |
-| 🛡️ **Defense & Tactical IoT** | **Military Field Squads** | **Tactical LoRa Mesh Rompi Militer**: Disruption-tolerant wearable telemetry mesh nodes for real-time personnel location. |
+| 🛡️ **Defense & Tactical IoT** | **Field Operations & Defense Squads** | **Tactical LoRa Mesh Telemetry**: Disruption-tolerant wearable telemetry mesh nodes for real-time personnel positioning. |
 | 🌏 **International Automation** | **Autologix Vietnam** | **Production Monitoring System (PMS)**: Automated industrial assembly line data acquisition and dashboarding. |
 | 🎓 **Higher Education R&D** | **UNIKOM & UPI Consortium** | Collaborative research labs, IoT development kits (IoT Kit V3/V4), and national engineering bootcamps. |
 
@@ -92,23 +105,23 @@ Whether you are an early-stage startup needing rapid prototyping or an enterpris
 ---
 
 <a id="iso-governance"></a>
-## 🛡️ Quality Assurance & ISO Governance
+## 🛡️ Engineering Governance & Standards Alignment
 
-Makerindo enforces rigorous international engineering standards across every code commit and circuit layout:
+Makerindo applies rigorous international engineering standards and architectural quality frameworks across hardware, firmware, and software lifecycles:
 
-- **ISO/IEC 25010:2023 (Systems & Software Product Quality)**: Zero redundant code, sub-second API response times, and high fault tolerance.
+- **ISO/IEC 25010:2023 (Systems & Software Product Quality)**: High fault tolerance, deterministic sub-second API latency, and zero redundant code blocks.
 - **ISO/IEC 27001:2022 (Information Security Management)**: Cryptographically verified commit pipelines (GPG Ed25519), zero credential leakage, and strict secret hygiene.
 - **ISO/IEC 12207:2017 (Systems & Software Lifecycle Processes)**: Automated regression gates, trunk-based `main` branch discipline, and structured semantic versioning.
 - **ISO 9001:2015 (Quality Management Assurance)**: Customer satisfaction tracking, continuous delivery milestones, and formal post-deployment SLA support.
 
 ---
 
-## 👨‍💻 Engineering Culture & Employee Pride
+## 👨‍💻 Engineering Culture & Professional Pride
 
 To our engineers, developers, and researchers: every repository under `@makerindo-repository` represents craftsmanship, architectural diligence, and professional pride.
 - **100% Cryptographically Verified**: Commits signed with hardware/GPG keys.
-- **Zero AI-Hallucinated Commits**: Code authored, reviewed, and audited by real engineers.
-- **Clean Architecture & Maintainability**: Written to stand the test of time and scale effortlessly.
+- **Human-in-the-Loop & Rigorous Verification**: Every codebase is architected, peer-reviewed, and verified against automated regression testing gates.
+- **Clean Architecture & Maintainability**: Written to stand the test of time, eliminate technical debt, and scale effortlessly.
 
 ---
 

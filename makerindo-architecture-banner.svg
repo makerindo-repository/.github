@@ -148,7 +148,7 @@
       </g>
       
       <text x="56" y="25" class="card-title">Distributed Cloud</text>
-      <text x="56" y="38" class="card-sub font-mono">Next.js 16 · Go 1.22 · Postgres</text>
+      <text x="56" y="38" class="card-sub font-mono">Next.js 15 · Go 1.23 · PostgreSQL</text>
       
       <line x1="14" y1="52" x2="250" y2="52" stroke="#1E293B" stroke-width="1"/>
       
@@ -200,7 +200,7 @@
       <text x="14" y="72" class="card-detail">Zero-Shot Visual Classification</text>
       <text x="14" y="90" class="card-detail">Automated Edge Defect Inspection</text>
       <text x="14" y="110" class="font-mono card-metric" fill="#A855F7">Sub-15ms Edge AI Inference</text>
-      <text x="14" y="127" class="font-mono" font-size="9.5" fill="#10B981">● ISO 42001 &amp; 25059 Validated</text>
+      <text x="14" y="127" class="font-mono" font-size="9.5" fill="#10B981">● Edge-Optimized AI Pipeline</text>
     </g>
 
   </g>
