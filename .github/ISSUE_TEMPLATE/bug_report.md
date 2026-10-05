@@ -20,7 +20,7 @@ A clear description of what was expected to happen.
 ## 🖥️ Environment Information
 - **OS**: [e.g. Linux Debian 12 / macOS / Windows]
 - **Target Hardware / Board** (if IoT): [e.g. ESP32-WROOM-32 / STM32F4]
-- **Runtime / Framework**: [e.g. Go 1.22 / Next.js 16 / Flutter 3.x]
+- **Runtime / Framework**: [e.g. Go 1.23 / Next.js 15 / Flutter 3.x]
 
 ## 📋 Additional Context
 Add any logs, screenshots, or stack traces here.
