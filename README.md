@@ -35,16 +35,16 @@ Under our corporate doctrine **"Build Solution without Exception"**, we adapt se
 
 ---
 
-## 🌟 Featured Public Solutions & Repositories
+## 🏢 Proprietary Solutions & Core Engineering Platforms
 
-Explore select public repositories, open telemetry platforms, and engineering starter kits maintained by Makerindo:
+Makerindo maintains a robust catalog of production-proven enterprise codebases, telemetry platforms, and proprietary firmware libraries (available to strategic partners and enterprise clients under commercial engagement):
 
-| Repository | Engineering Domain | Highlights & Architecture |
+| Platform & Solution Architecture | Engineering Domain | Highlights & Proven Capabilities |
 |:---|:---|:---|
-| 🚽 [`letsens`](https://github.com/makerindo-repository/letsens) | **Smart Sanitation & Vision AI** | Real-time IoT toilet telemetry platform integrating Google Gemini AI analytics and multi-sensor environmental sensing (UNIKOM collaboration). |
-| 🚨 [`ews-makesens`](https://github.com/makerindo-repository/ews-makesens) | **Disaster Early Warning System** | River water-level radar/ultrasonic telemetry arrays, real-time alert dispatch, and flood mitigation sensor gateways. |
-| 🌾 [`RSC-Bitanic_V1`](https://github.com/makerindo-repository/RSC-Bitanic_V1) | **Smart AgriTech Hardware** | Rapid Soil Checker (RSC) firmware for direct NPK, pH, moisture, and soil electrical conductivity (EC) analysis in the field. |
-| 💨 [`web-iot-carbon`](https://github.com/makerindo-repository/web-iot-carbon) | **Environmental & Carbon Sensing** | Real-time industrial air quality, greenhouse gas emission monitoring, and localized environmental telemetry dashboards. |
+| 🚽 **LetSens Ecosystem** | **Smart Sanitation & Vision AI** | Real-time IoT toilet telemetry platform integrating Google Gemini AI analytics and multi-sensor environmental sensing (UNIKOM collaboration). |
+| 🚨 **MakeSens EWS** | **Disaster Early Warning System** | River water-level radar/ultrasonic telemetry arrays, real-time alert dispatch, and flood mitigation sensor gateways. |
+| 🌾 **Bitanic RSC Hardware** | **Smart AgriTech Hardware** | Rapid Soil Checker (RSC) firmware for direct NPK, pH, moisture, and soil electrical conductivity (EC) analysis in the field. |
+| 💨 **CarbonSense IoT** | **Environmental & Carbon Sensing** | Real-time industrial air quality, greenhouse gas emission monitoring, and localized environmental telemetry dashboards. |
 
 ---
 
